@@ -1,35 +1,34 @@
 /*
     ===== Código de TypeScript =====
 */
-interface SuperHero {
-    name: string;
-    age: number;
-    address: Address; // When you have another object you need another interface for this
-    showAddress: () => string;
+
+interface SuperHero{
+    name :string;
+    age:number;
+    address: Address ;
+    showAddress: ()=>void;
 }
-interface Address {
-    calle: string;
-    pais: string;
-    ciudad: string;
+interface Address{
+    street: string;
+    country:string;
+    town:string;
 }
+
+
 const superHeroe: SuperHero = {
     name: 'Spiderman',
     age: 30,
     address: {
-        calle: 'Main St',
-        pais: 'USA',
-        ciudad: 'NY'
+        street: 'Main St',
+        country: 'USA',
+        town: 'NY'
     },
     showAddress() {
-        return this.name + ', ' + this.address.ciudad + ', ' + this.address.pais;
+        return this.name + ', ' + this.address.town + ', ' + this.address.country;
     }
 }
 
-
 const address = superHeroe.showAddress();
 console.log(address);
-
-
-
 
 export { };

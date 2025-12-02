@@ -18,13 +18,19 @@ const audioPlayer:AudioPlayer={
         year:2022
     }
 }
-const {songDuration, details}=audioPlayer;// Para desestructurar objetos anidados es primero esencial desestructurar el objeto y luego lo que se necesita
+// Para desestructurar objetos anidados es primero esencial desestructurar el objeto y luego lo que se necesita
+const {songDuration:duracion, details}=audioPlayer;
 
-const {author}=details;
-//console.table(`Duracion es ${songDuration}`);
-//console.table(`El autor es  ${author} `);
+const {author:autor}=details;
+console.table(`Duracion de la cancion es: ${duracion}`);
+console.table(`El autor es  ${autor} `);
+
+//Desestructuracion de arreglos
+const  bnha:string[] =["Deku","Uraraka","All might"];
+const [,p2,]  =bnha;
+
 const [,,trunk] : string []=['goku','vegeta','trunsk'];
 
-console.log(`personaje 3 ${trunk}`);
+console.log(`personaje 3 ${trunk} y el personaje de bnha es ${p2}`);
 
 export{};
