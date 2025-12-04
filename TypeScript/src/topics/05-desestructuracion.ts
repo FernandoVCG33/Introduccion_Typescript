@@ -9,6 +9,7 @@ interface Details{
     author:string;
     year:number;
 }
+//Objeto audioPlayer
 const audioPlayer:AudioPlayer={
     audioVolumen: 90,
     songDuration: 36,
