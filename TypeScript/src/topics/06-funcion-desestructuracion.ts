@@ -11,7 +11,7 @@ const tablet:Product={
     price:5620
 }
 
-interface TaxCalculationOPtions {
+interface TaxCalculationOPtions{
     tax:number,
     products:Product[];
 }

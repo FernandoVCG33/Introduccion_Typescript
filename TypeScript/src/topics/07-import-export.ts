@@ -1,3 +1,4 @@
+//debes colocar Type para importar una interfaz
 import { taxCalculation, type Product } from './06-funcion-desestructuracion';
 
 
