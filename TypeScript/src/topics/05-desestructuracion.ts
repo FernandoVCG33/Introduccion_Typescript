@@ -4,7 +4,7 @@ interface AudioPlayer{
     song :string;
     details:Details;
 }
-
+//Details Interfaz
 interface Details{
     author:string;
     year:number;
