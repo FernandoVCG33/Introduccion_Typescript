@@ -1,3 +1,4 @@
+//clases en TS
 export class Person {
     //public name:string ;
     //public address:string;
@@ -21,6 +22,7 @@ export class Hero {
       //this.person= new Person(realName);  
     }
 }
-const persona1= new Person('Tony','Stark', 'Tony');
+const persona1= new Person('Tony','Stark', 'Tony','NY');
 const ironman= new Hero('Iron man',45,'TonyS',persona1);
-console.log(ironman);
+console.table(ironman);
+

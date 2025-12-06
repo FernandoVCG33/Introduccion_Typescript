@@ -6,10 +6,10 @@ import './style.css'  //es un modulo
 //import  './topics/05-desestructuracion'  ; 
 //import './topics/06-funcion-desestructuracion'
 //import './topics/07-import-export';
-//import './topics/08-clases';
+import './topics/08-clases';
 //import './topics/09-generics' ;
 //import './topics/10-decoratin';
-import './topics/11-chaining';
+//import './topics/11-chaining';
 const app = document.querySelector<HTMLDivElement>('#app')!;
 console.error(`Fin de toda la ejecución`);;
 app.innerHTML=`Hola mundo esto es TypeScript`;
