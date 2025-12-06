@@ -1,3 +1,4 @@
+//creamos interfaz y la exportamos
 export interface Product {
     name:string;
     price:number;
@@ -15,7 +16,7 @@ interface TaxCalculationOPtions{
     tax:number,
     products:Product[];
 }
-
+// crear funcion  y exportarlo
 export function taxCalculation(options:TaxCalculationOPtions):[number,number] {
     const {tax,products}=options;
     let total=0;

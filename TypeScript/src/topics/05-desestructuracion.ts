@@ -28,10 +28,10 @@ console.table(`El autor es  ${autor} `);
 
 //Desestructuracion de arreglos
 const  bnha:string[] =["Deku","Uraraka","All might"];
-const [,p2,]  =bnha;
+const [,p_2,]  =bnha;
 
 const [,,trunk] : string []=['goku','vegeta','trunsk'];
 
-console.log(`personaje 3 ${trunk} y el personaje de bnha es ${p2}`);
+console.log(`personaje 3 ${trunk} y el personaje de bnha es ${p_2}`);
 
 export{};
