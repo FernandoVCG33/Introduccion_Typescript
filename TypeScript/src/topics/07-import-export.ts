@@ -4,12 +4,12 @@ import { taxCalculation, type Product } from './06-funcion-desestructuracion';
 
 const carritoPoductos:Product[]=[
     {
-        name:"S 25",
+        name:"Computadora",
         price:1500
     }
     ,
     {
-        name:"Iphone 17",
+        name:"Ipad",
         price: 2500
     }
 ];
