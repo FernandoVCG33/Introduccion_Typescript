@@ -8,7 +8,7 @@ const pasajero1:Passenger={
     childer:["Maor","Morgan"]
 };
 const pasajero2:Passenger={
-    name:"Erick",
+    name:"Rafael",
     
 };
 
